@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+
+
+.footer-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+align-items: center;
+background-color:rgb(34, 34, 34);
+padding: 60px 200px 50px 200px
+}
+
+.footer-1h{
+color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 62px;
+}
+
+.f-cmn-p , .f-final-text{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+}
+
+.f-final{
+width: 100%;
+background-color:rgb(34, 34, 34);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.f-cmn-h{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+}
+
+.f-line {
+width:75%;
+height: 1px;
+background-color:white;
+margin-bottom: 10px; 
+}
+
+.f-final-text{
+margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 425px)
+{  
+    .footer-container{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+background-color:rgb(34, 34, 34);
+padding-left: 100px;
+margin: 0px;
+align-items:right;
+}
+}
+    </style>
+</head>
+<body>
+    <footer>
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-1">
+                    <h1 class="footer-1h">Fitness</h1>
+                    <p class="f-cmn-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.      </p>
+                </div>
+                <div class="footer-2">
+                    <h3 class="f-cmn-h">Get Started</h3>
+                    <p class="f-cmn-p">Service</p>
+                    <p class="f-cmn-p">Contact Us</p>
+                    <p class="f-cmn-p">Affiliate Program</p>
+                    <p class="f-cmn-p">About Us </p>
+                </div>
+                <div class="footer-3">
+                    <h3 class="f-cmn-h">Get Started</h3>
+                    <p class="f-cmn-p">Fitness</p>
+                    <p class="f-cmn-p">Platform</p>
+                    <p class="f-cmn-p">Workout Libary</p>
+                    <p class="f-cmn-p">App Design</p>  
+                </div>
+
+            </div>
+            <div class="f-final">
+                <div class="f-line"></div>
+                <p class="f-final-text">All right reserved ©Photos 2024</p>
+            </div>
+        </section>
+       
+    </footer>
+</body>
+</html>
